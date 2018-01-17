@@ -7,7 +7,7 @@ del *.mpf /s
 del *.mpj /s
 del *.obj /s
 del *.omf /s
-::del *.opt /s  ::²»ÔÊÐíÉ¾³ýJLINKµÄÉèÖÃ
+::del *.opt /s  ::ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¾ï¿½ï¿½JLINKï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 del *.plg /s
 del *.rpt /s
 del *.tmp /s
@@ -19,7 +19,6 @@ del *.axf /s
 del *.tra /s
 del *.dep /s           
 del JLinkLog.txt /s
-
 del *.iex /s
 del *.htm /s
 del *.sct /s
