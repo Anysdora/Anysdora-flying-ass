@@ -3,9 +3,9 @@
 
 #include "include.h"
 
-#define RtA 	57.29578f		//  180/3.1415  	弧度制转化为角度制	
-#define AtR    	0.017453f		//  1/RtA			RtA倒数		
-#define Gyro_G  0.061035f		//  1/32768/2000	陀螺仪量程为 +—2000			
+#define RtA 	57.29578f
+#define AtR    	0.017453f
+#define Gyro_G  0.061035f
 
 struct _axis
 {
@@ -17,17 +17,17 @@ struct _axis
 struct _trans
 {
 	struct _axis origin;		//原始值
-	struct _axis radian;		//弧度值 
-	struct _axis angle;		//角度值
+	struct _axis radian;		//锟斤拷锟斤拷值
+	struct _axis angle;		//锟角讹拷值
 };
 
 struct _sensor
-{   
+{
 	struct _trans accel;
 	struct _trans gyro;
 };
 
-extern struct _sensor sensor;	
+extern struct _sensor sensor;
 
 
 struct _angle
@@ -48,4 +48,3 @@ void sensor_accel_calculation(signed short *accel, struct _trans *sensor_accel);
 
 
 #endif
-
